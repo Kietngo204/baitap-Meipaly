@@ -51,7 +51,7 @@
   </head>
   <body>
     <!-- HEARDER -->
-    <header>
+    <header id="header">
       <div class="header_content container">
         <div class="header_logo">
           <a href="#">
@@ -389,16 +389,82 @@
           </p>
         </div>
         <div class="digital_content">
-          <video controls poster="./img/home_slider.jpg">
-            <source src="./img/video.mp4" type="video/mp4">
-          </video>
+          <video
+            src="./img/video.mp4"
+            controls
+            poster="./img/home_slider.jpg"
+          ></video>
         </div>
       </div>
     </section>
     <!-- CONTACT -->
-    <section class="contact"></section>
+    <section class="contact section">
+      <div class="container">
+        <div class="heading">
+          <h2>CONTACT</h2>
+          <p>
+            Thank you for your interest in our website & our services. If you
+            have any <br />
+            questions, please write us a message now!
+          </p>
+        </div>
+        <div class="contact_content">
+          <div class="contact_map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7838.281980953841!2d106.6373301!3d10.800511799999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1683731285866!5m2!1svi!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact_form">
+            <form action="#">
+              <input type="text" placeholder="Username" />
+              <input type="email" placeholder="Email Address" />
+              <textarea
+                cols="30"
+                rows="10"
+                placeholder="Ask a Question..."
+              ></textarea>
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer class="section">
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_copyright">
+            © 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.
+          </div>
+          <div class="footer_contact">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back To Top -->
+    <div class="backToTop">
+      <a href="#header">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </div>
     <!-- Thư viện Jquery -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
